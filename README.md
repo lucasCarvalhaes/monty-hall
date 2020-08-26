@@ -1,5 +1,7 @@
 # monty-hall
 
+<img src="./public/monty-hall.png"/>
+
 ## Project setup
 ```
 npm install
