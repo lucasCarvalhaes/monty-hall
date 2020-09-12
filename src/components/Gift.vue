@@ -1,9 +1,12 @@
 <template>
-  <div class="gift">
+  <!-- <div class="gift">
       <div class="gift-tie-1"></div>
       <div class="gift-tie-2"></div>
       <div class="gift-top"></div>
-      <div class="gift-body"></div>
+      <div class="gift-body"></div> -->
+  <!-- </div> -->
+  <div class="gift">
+      <img src="../assets/gift.png" width="80px" height="80px" alt="gift">
   </div>
 </template>
 
@@ -14,7 +17,7 @@ export default {
 </script>
 
 <style>
-.gift {
+/* .gift {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -51,5 +54,14 @@ export default {
     width: 90px;
     height: 15px;
     background-color: red;
+} */
+
+.gift {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    z-index: 1;
+    margin-bottom: 10px;
 }
 </style>
