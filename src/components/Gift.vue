@@ -22,16 +22,20 @@ export default {
     z-index: 10;
 }
 
-.gift-top {
-    width: 100px;
-    height: 25px;
-    background-color: #7aa944;
-}
+
 
 .gift-body {
     width: 90px;
     height: 60px;
-    background-color: #5c7e32;
+    background-color: gold;
+}
+
+.gift-top {
+    width: 100px;
+    height: 25px;
+    margin-bottom: 1px;
+    box-shadow: 0px 1px 0px 0px goldenrod;
+    background-color: gold;
 }
 
 .gift-tie-1 {
